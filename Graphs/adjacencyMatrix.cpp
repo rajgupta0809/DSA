@@ -37,7 +37,7 @@ int main() {
     cout << "Enter total number of edges: ";
     cin >> edges;
 
-    vector<vector<int>> adj(nodes, vector<int>(nodes, 0));
+    vector<vector<int> > adj(nodes, vector<int>(nodes, 0));
 
     cout << "Enter the Edges:" << endl;
     for (int i = 0; i < edges; i++) {
